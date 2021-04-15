@@ -27,7 +27,6 @@ To get the full dataset you have to download:
 
 * [Events metadata (csv, 249 MB)]()
 * [Events data in counts (hdf5, 39 GB)]() **single file**  
-
 Alternatively this file can also be downloaded in smaller size chunks:
   * [Events data in counts (hdf5, 10 GB)]() **part a**
   * [Events data in counts (hdf5, 10 GB)]() **part b**
@@ -35,7 +34,6 @@ Alternatively this file can also be downloaded in smaller size chunks:
   * [Events data in counts (hdf5,  9 GB)]() **part d**
 
 * [Events data in ground motion units (hdf5, 307 GB)]() **single file**  
-
 Alternatively this file can also be downloaded in smaller size chunks:
   * [Events data in ground motion units (hdf5, 20 GB)]() **part a**
   * [Events data in ground motion units (hdf5, 20 GB)]() **part b**

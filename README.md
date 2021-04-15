@@ -1,10 +1,5 @@
 ![event](docs/logo_color.png)
 
-------------------
-
-# INSTANCE - the ItaliaN Seismic daTaset for Artificial iNtelligenCE
-
-------------------
 
 ## Description
 **INSTANCE** is a dataset of seismic waveforms data and associated metadata **suited for artificial inelligence analysis applications**. It includes:
@@ -32,6 +27,7 @@ To get the full dataset you have to download:
 
 * [Events metadata (csv, 249 MB)]()
 * [Events data in counts (hdf5, 39 GB)]() **single file**  
+
 Alternatively this file can also be downloaded in smaller size chunks:
   * [Events data in counts (hdf5, 10 GB)]() **part a**
   * [Events data in counts (hdf5, 10 GB)]() **part b**
@@ -39,6 +35,7 @@ Alternatively this file can also be downloaded in smaller size chunks:
   * [Events data in counts (hdf5,  9 GB)]() **part d**
 
 * [Events data in ground motion units (hdf5, 307 GB)]() **single file**  
+
 Alternatively this file can also be downloaded in smaller size chunks:
   * [Events data in ground motion units (hdf5, 20 GB)]() **part a**
   * [Events data in ground motion units (hdf5, 20 GB)]() **part b**
@@ -80,4 +77,4 @@ To run the notebooks please make sure teh following packages are properly instal
 
 ## Licence
 
-Creative commons license: https://creativecommons.org/licenses/by/4.0/
+Creative commons license [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)

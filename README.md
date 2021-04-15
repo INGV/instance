@@ -13,11 +13,9 @@
 ![maps](docs/Ita_epicenter_station.png)
 *Earthquakes a) and stations b) of the dataset. Symbols size are proportional to earthquake magnitude and number of arrival phases recorded by stations, respectively*
 
-## Reference
-
-Michelini A., Cianetti S., Gaviano S., Giunchi C., Jozinović D., and Lauciani V., (2021). INSTANCE - the ItaliaN Seismic daTaset for Artificial iNtelligenCE, submitted to *Earth System Science Data*, 2021.
-
-Dataset landing page: [INSTANCE](https://doi.org/10.13127/instance)
+## Refernce
+Michelini A., Cianetti S., Gaviano S., Giunchi C., Jozinović D., and Lauciani V., (2021). INSTANCE - the ItaliaN Seismic daTaset for Artificial intelligeNCE, submitted to *Earth System Science Data*, 2021.
+INGV Ufficio Dati https://doi.org/10.13127/instance
 
 ## Download
 To get the full dataset you have to download:
@@ -59,9 +57,8 @@ We also distribute a very small size **sample dataset** to run the notebooks pro
 * **Sample dataset** (GB) : https://www.pi.ingv.it/instance/sample_dataset
 
 
-
 ## Requirements
-To run the notebooks please make sure teh following packages are properly installed in your environments:
+To run the notebooks please make sure the following packages are properly installed in your environments:
 * python 
 * obspy
 * matplotlib
@@ -75,4 +72,4 @@ To run the notebooks please make sure teh following packages are properly instal
 
 ## Licence
 
-Creative commons license [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+Creative commons license [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)

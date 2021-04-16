@@ -2,7 +2,6 @@
 
 [![DOI](https://img.shields.io/badge/doi-10.13127%2Finstance-lightgray?style=flat-square)](https://doi.org/10.13127/instance)
 ![GitHub all releases](https://img.shields.io/github/downloads/cjunkk/instance/total?color=green&style=flat-square)
-![Twitter Follow](https://img.shields.io/twitter/follow/cjunkk)
 
 ## Description
 **INSTANCE** is a dataset of seismic waveforms data and associated metadata **suited for analysis based on machine learning**. It includes:

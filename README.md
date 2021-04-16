@@ -56,12 +56,13 @@ Alternatively this file can also be downloaded in smaller size chunks:
 
 The **notebooks** provided in this repo can be used to reproduce the figures of the manuscript Michelini et al., 2021, submitted.
 
-We also distribute a very small size **sample dataset** to run the notebooks provided in the repository. Users potentially interested can evaluate whether **INSTANCE** fulfill their requirements without the cumbersome task of downloading the whole dataset.
+We also distribute a **sample dataset** of smaller size to run the notebooks provided in the repository. Users potentially interested can evaluate whether **INSTANCE** fulfill their needs without downloading the whole dataset.
+
 * **Sample dataset** (GB) : https://www.pi.ingv.it/instance/sample_dataset
 
 
 ## Requirements
-To run the notebooks please make sure the following packages are properly installed in your environments:
+To run the notebooks please make sure the following packages are properly installed in your environment:
 * python
 * obspy
 * matplotlib
@@ -73,6 +74,16 @@ To run the notebooks please make sure the following packages are properly instal
 * hdf5
 * scipy
 
+ or just create a dedicated environment for INSTANCE
+
+ ```
+conda create -n instance python=3.7 obspy basemap pandas seaborn h5py hdf5
+conda activate instance
+wget "sample_dataset"
+git clone https://github.com/cjunkk/instance
+cd instance
+jupyter notebook ...
+```
 ## Licence
 
 Creative commons license [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)

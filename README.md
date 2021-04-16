@@ -1,4 +1,4 @@
-![event](docs/logo_color.png)
+![event](docs/logo_colori_n.png)
 
 [![DOI](https://img.shields.io/badge/doi-10.13127%2Finstance-lightgray?style=flat-square)](https://doi.org/10.13127/instance)
 ![GitHub all releases](https://img.shields.io/github/downloads/cjunkk/instance/total?color=green&style=flat-square)

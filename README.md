@@ -15,6 +15,16 @@
 ![maps](docs/Ita_epicenter_station.png)
 *Earthquakes a) and stations b) of the dataset. Symbols size are proportional to earthquake magnitude and number of arrival phases recorded by stations, respectively*
 
+To **access the waveforms in INSTANCE** we provide the notebooks Waveforms.ipynb. Here are some randomly selected waveforms extracted from the dataset.
+
+**Events with Magnitude in the range [2-4]**
+![wf_c](docs/Wave_count_2_M_4.png)
+**Events selected from HN channel**
+![wf_gm](docs/Wave_gm_HN.png)
+**Noise selected form HH channel**
+![wf_n](docs/Wave_noise_HH.png)
+
+
 ## Reference
 Michelini A., Cianetti S., Gaviano S., Giunchi C., Jozinović D., and Lauciani V., (2021). INSTANCE - The Italian seismic dataset for machine learning, submitted to *Earth System Science Data*, 2021.
 INGV Ufficio Dati https://doi.org/10.13127/instance
@@ -44,7 +54,7 @@ To get the full dataset you have to download:
 [**part-m**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-m),
 [**part-n**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-n),
 [**part-o**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-o),
-[**part-p**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-p),)
+[**part-p**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-p)). Please note that ground motion units are **m/s for HH and EH channels** and **m/s<sup>2</sup> for HN and HL channels**.
 
 The **notebooks** provided in this repo can be used to reproduce the figures of the manuscript Michelini et al., 2021, submitted.
 

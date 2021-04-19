@@ -22,57 +22,45 @@ INGV Ufficio Dati https://doi.org/10.13127/instance
 ## Download
 To get the full dataset you have to download:
 
-* [Noise metadata (csv, 8 MB)](http://repo.pi.ingv.it/instance/metadata_Instance_noise.csv.bz2)
-* [Noise data in counts (hdf5, 3.9 GB)](http://repo.pi.ingv.it/instance/Instance_noise.tar.bz2)
+* Noise metadata ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_noise.csv.bz2), 8 MB)
+* Noise data in counts ([**hdf5**](http://repo.pi.ingv.it/instance/Instance_noise.tar.bz2), 3.9 GB)
 
-* [Events metadata (csv, 249 MB)](http://repo.pi.ingv.it/instance/metadata_Instance_events.csv.bz2)
-* [Events data in counts (hdf5, 39 GB)](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2) **single file**  
-Alternatively this file can also be downloaded in smaller size chunks:
-  * [Events data in counts (hdf5, 10 GB)](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-a) **part a**
-  * [Events data in counts (hdf5, 10 GB)](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-b) **part b**
-  * [Events data in counts (hdf5, 10 GB)](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-c) **part c**
-  * [Events data in counts (hdf5,  9 GB)](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-d) **part d**
+* Events metadata ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events.csv.bz2), 249 MB)
+* Events data in counts  as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2) (39 GB) or 10 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-a), [**part-b**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-b), [**part-c**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-c), [**part-d**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-d))
 
-* [Events data in ground motion units (hdf5, 307 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2) **single file**  
-Alternatively this file can also be downloaded in smaller size chunks:
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-a) **part a**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-b) **part b**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-c) **part c**   
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-d) **part d**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-e) **part e**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-f) **part f**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-g) **part g**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-h) **part h**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-i) **part i**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-j) **part j**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-k) **part k**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-l) **part l**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-m) **part m**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-n) **part n**
-  * [Events data in ground motion units (hdf5, 20 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-o) **part o**
-  * [Events data in ground motion units (hdf5,  7 GB)](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-p) **part p**
-
-
+* Events data in ground motion units as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2) (307 GB) or
+20 GB parts ([**part a**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-a),
+[**part b**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-b),
+[**part c**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-c),
+[**part d**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-d),
+[**part e**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-e),
+[**part f**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-f),
+[**part g**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-g),
+[**part h**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-h),
+[**part i**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-i),
+[**part j**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-j),
+[**part k**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-k),
+[**part l**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-l),
+[**part m**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-m),
+[**part n**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-n),
+[**part o**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-o),
+[**part p**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-p),)
 
 The **notebooks** provided in this repo can be used to reproduce the figures of the manuscript Michelini et al., 2021, submitted.
 
-We also distribute a **sample dataset** of smaller size to run the notebooks provided in the repository. Users potentially interested can evaluate whether **INSTANCE** fulfill their needs without downloading the whole dataset.
+We also distribute a **sample dataset** of approximately 1.7 GB to run the notebooks provided in the repository. Users potentially interested can evaluate whether **INSTANCE** fulfill their needs without downloading the whole dataset.
 
-* **Sample dataset** (GB) : https://www.pi.ingv.it/instance/sample_dataset
+* [**Sample dataset**](http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2) (1.7 GB)
 
 
 ## Requirements
 To run the notebooks please make sure the following packages are properly installed in your environment:
-* python
 * obspy
-* matplotlib
-* numpy
 * basemap
 * pandas
 * seaborn
 * h5py
 * hdf5
-* scipy
 
  or just create a dedicated environment for INSTANCE
 

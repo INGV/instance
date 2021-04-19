@@ -15,7 +15,7 @@
 ![maps](docs/Ita_epicenter_station.png)
 *Earthquakes a) and stations b) of the dataset. Symbols size are proportional to earthquake magnitude and number of arrival phases recorded by stations, respectively*
 
-To **access the waveforms in INSTANCE** we provide the notebooks Waveforms.ipynb. Here are some randomly selected waveforms extracted from the dataset.
+To **access the waveforms in INSTANCE** we provide the notebooks Waveforms.ipynb. 
 
 **Events with Magnitude in the range [2-4]**
 ![wf_c](docs/Wave_count_2_M_4.png)

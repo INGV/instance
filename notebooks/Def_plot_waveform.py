@@ -146,7 +146,7 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
             ax.xaxis.set_major_formatter(formatter)
             ax.xaxis.set_major_locator(mdates.SecondLocator(bysecond=label_sec))
             ax.set_ylim(-yslim,yslim)
-            ax.plot(st[j].times("matplotlib"), st[j].data, "b-", c='k', lw=1, label = "Trace")
+            ax.plot(st[j].times("matplotlib"), st[j].data, c='k', lw=1, label = "Trace")
             ax.yaxis.set_tick_params(labelleft=True, labelsize=labelsize)
             if wftype != 'noise':
                 ax.axvline(date2num(P_date_time_obj), c='b', lw=2, label = "Pick_P")

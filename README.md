@@ -29,22 +29,22 @@ To get the full dataset you have to download:
 * Events data in counts  as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2) (39 GB) or 10 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-a), [**part-b**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-b), [**part-c**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-c), [**part-d**](http://repo.pi.ingv.it/instance/Instance_events_counts.tar.bz2.part-d))
 
 * Events data in ground motion units as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2) (307 GB) or
-20 GB parts ([**part a**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-a),
-[**part b**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-b),
-[**part c**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-c),
-[**part d**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-d),
-[**part e**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-e),
-[**part f**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-f),
-[**part g**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-g),
-[**part h**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-h),
-[**part i**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-i),
-[**part j**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-j),
-[**part k**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-k),
-[**part l**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-l),
-[**part m**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-m),
-[**part n**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-n),
-[**part o**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-o),
-[**part p**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-p),)
+20 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-a),
+[**part-b**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-b),
+[**part-c**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-c),
+[**part-d**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-d),
+[**part-e**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-e),
+[**part-f**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-f),
+[**part-g**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-g),
+[**part-h**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-h),
+[**part-i**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-i),
+[**part-j**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-j),
+[**part-k**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-k),
+[**part-l**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-l),
+[**part-m**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-m),
+[**part-n**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-n),
+[**part-o**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-o),
+[**part-p**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-p),)
 
 The **notebooks** provided in this repo can be used to reproduce the figures of the manuscript Michelini et al., 2021, submitted.
 

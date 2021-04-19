@@ -56,6 +56,7 @@ We also distribute a **sample dataset** of approximately 1.7 GB to run the noteb
 ## Requirements
 To run the notebooks please make sure the following packages are properly installed in your environment:
 * obspy
+* jupyter
 * basemap
 * pandas
 * seaborn
@@ -65,7 +66,7 @@ To run the notebooks please make sure the following packages are properly instal
  or just create a dedicated environment for INSTANCE
 
  ```
-conda create -n instance python=3.7 obspy basemap pandas seaborn h5py hdf5
+conda create -n instance python=3.7 obspy jupyter basemap pandas seaborn h5py hdf5
 conda activate instance
 git clone https://github.com/cjunkk/instance
 cd instance

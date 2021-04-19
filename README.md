@@ -15,7 +15,7 @@
 ![maps](docs/Ita_epicenter_station.png)
 *Earthquakes a) and stations b) of the dataset. Symbols size are proportional to earthquake magnitude and number of arrival phases recorded by stations, respectively*
 
-To **access the waveforms in INSTANCE** we provide the notebooks Waveforms.ipynb. 
+To **access the waveforms in INSTANCE** we provide the notebooks Waveforms.ipynb.
 
 **Events with Magnitude in the range [2-4]**
 ![wf_c](docs/Wave_count_2_M_4.png)
@@ -26,8 +26,9 @@ To **access the waveforms in INSTANCE** we provide the notebooks Waveforms.ipynb
 
 
 ## Reference
-Michelini A., Cianetti S., Gaviano S., Giunchi C., Jozinović D., and Lauciani V., (2021). INSTANCE - The Italian seismic dataset for machine learning, submitted to *Earth System Science Data*, 2021.
-INGV Ufficio Dati https://doi.org/10.13127/instance
+INSTANCE The Italian Seismic Dataset For Machine Learning,
+Alberto Michelini, Spina Cianetti, Sonja Gaviano, Carlo Giunchi, Dario Jozinović & Valentino Lauciani,
+Seismic Waveforms And Associated Metadata published 2021 in Istituto Nazionale di Geofisica e Vulcanologia (INGV) https://doi.org/10.13127/instance
 
 ## Download
 To get the full dataset you have to download:
@@ -54,11 +55,11 @@ To get the full dataset you have to download:
 [**part-m**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-m),
 [**part-n**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-n),
 [**part-o**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-o),
-[**part-p**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-p)). Please note that ground motion units are **m/s for HH and EH channels** and **m/s<sup>2</sup> for HN and HL channels**.
+[**part-p**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-p)). Ground motion units are **m/s for HH and EH channels** and **m/s<sup>2</sup> for HN channel**.
 
 The **notebooks** provided in this repo can be used to reproduce the figures of the manuscript Michelini et al., 2021, submitted.
 
-We also distribute a **sample dataset** of approximately 1.7 GB to run the notebooks provided in the repository. Users potentially interested can evaluate whether **INSTANCE** fulfill their needs without downloading the whole dataset.
+A **sample dataset** of approximately 1.7 GB to run the notebooks is provided in the repository. The sample dataset contains 10,000 events and 1000 noise waveforms together with the associated metadata. Users potentially interested can evaluate whether **INSTANCE** fulfill their needs without downloading the whole dataset.
 
 * [**Sample dataset**](http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2) (1.7 GB)
 

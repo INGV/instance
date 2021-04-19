@@ -79,10 +79,9 @@ To run the notebooks please make sure the following packages are properly instal
  ```
 conda create -n instance python=3.7 obspy basemap pandas seaborn h5py hdf5
 conda activate instance
-wget "sample_dataset"
 git clone https://github.com/cjunkk/instance
 cd instance
-jupyter notebook ...
+curl http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2 | tar xj
 ```
 ## Licence
 

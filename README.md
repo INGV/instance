@@ -31,7 +31,7 @@ Alberto Michelini, Spina Cianetti, Sonja Gaviano, Carlo Giunchi, Dario JozinoviÄ
 Seismic Waveforms And Associated Metadata published 2021 in Istituto Nazionale di Geofisica e Vulcanologia (INGV) https://doi.org/10.13127/instance
 
 ## Download
-To get the full dataset you have to download:
+To get the **full dataset** you have to download:
 
 * Noise metadata ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_noise.csv.bz2), 8 MB)
 * Noise data in counts ([**hdf5**](http://repo.pi.ingv.it/instance/Instance_noise.tar.bz2), 3.9 GB)

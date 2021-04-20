@@ -15,7 +15,7 @@
 ![maps](docs/Ita_epicenter_station.png)
 *Earthquakes a) and stations b) of the dataset. Symbols size are proportional to earthquake magnitude and number of arrival phases recorded by stations, respectively*
 
-To **access the waveforms in INSTANCE** we provide the notebooks Waveforms.ipynb.
+To **access the waveforms in INSTANCE** we provide the notebook Waveforms.ipynb.
 
 **Events with Magnitude in the range [2-4]**
 ![wf_c](docs/Wave_count_2_M_4.png)
@@ -57,9 +57,9 @@ To get the full dataset you have to download:
 [**part-o**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-o),
 [**part-p**](http://repo.pi.ingv.it/instance/Instance_events_gm.tar.bz2.part-p)). Ground motion units are **m/s for HH and EH channels** and **m/s<sup>2</sup> for HN channel**.
 
-The **notebooks** provided in this repo can be used to reproduce the figures of the manuscript Michelini et al., 2021, submitted.
+<!-- The **notebooks** provided in this repo can be used to reproduce the figures of the manuscript Michelini et al., 2021, submitted. -->
 
-A **sample dataset** of approximately 1.7 GB to run the notebooks is provided in the repository. The sample dataset contains 10,000 events and 1000 noise waveforms together with the associated metadata. Users potentially interested can evaluate whether **INSTANCE** fulfill their needs without downloading the whole dataset.
+A **sample dataset** of approximately 1.7 GB is provided in the repository to run the notebooks. The sample dataset contains 10,000 events and 1000 noise waveforms together with the associated metadata. Users potentially interested can evaluate whether **INSTANCE** fulfill their needs without downloading the whole dataset.
 
 * [**Sample dataset**](http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2) (1.7 GB)
 
@@ -83,6 +83,8 @@ git clone https://github.com/cjunkk/instance
 cd instance
 curl http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2 | tar xj
 ```
+
+
 ## Licence
 
 Creative commons license [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)

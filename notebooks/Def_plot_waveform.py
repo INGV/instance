@@ -47,7 +47,7 @@ def build_stream(df,h5,line, wftype, filt, freq_min, freq_max):
     
     waveform = h5['data'][row['trace_name']]
 
-    stats.delta = row['trace_dt']
+    stats.delta = row['trace_dt_s']
     stats.starttime = pd.to_datetime(row['trace_start_time'])
     stats.network = net
     stats.station = sta

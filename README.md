@@ -37,17 +37,17 @@ To get the **full dataset** you have to download:
 * Noise data in counts ([**hdf5**](http://repo.pi.ingv.it/instance/Instance_noise.hdf5.bz2), 3.9 GB)
 
 * Events metadata ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events.csv.bz2), 249 MB)
-* Events data in counts  as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2) (39 GB) or 10 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2.part-a), [**part-b**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2.part-b), [**part-c**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2.part-c), [**part-d**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2.part-d))
+* Events data in counts  as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2) (39 GB) or 10 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-a), [**part-b**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-b), [**part-c**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-c), [**part-d**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-d))
 
 * Events data in ground motion units as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2) (151 GB) or
-20 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2.part-a),
-[**part-b**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2.part-b),
-[**part-c**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2.part-c),
-[**part-d**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2.part-d),
-[**part-e**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2.part-e),
-[**part-f**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2.part-f),
-[**part-g**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2.part-g),
-[**part-h**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2.part-h)). Ground motion units are **m/s for HH and EH channels** and **m/s<sup>2</sup> for HN channel**.
+20 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-a),
+[**part-b**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-b),
+[**part-c**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-c),
+[**part-d**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-d),
+[**part-e**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-e),
+[**part-f**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-f),
+[**part-g**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-g),
+[**part-h**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-h)). Ground motion units are **m/s for HH and EH channels** and **m/s<sup>2</sup> for HN channel**.
 
 <!-- The **notebooks** provided in this repo can be used to reproduce the figures of the manuscript Michelini et al., 2021, submitted. -->
 

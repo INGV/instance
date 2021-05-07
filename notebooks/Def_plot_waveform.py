@@ -114,8 +114,8 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
         st,row = build_stream(df,h5,l, wftype, filt, freq_min, freq_max)
         ev_id = row['source_id']
         if wftype != 'noise':
-            timeP = row['trace_p_arrival_time']
-            timeS = row['trace_s_arrival_time']
+            timeP = row['trace_P_arrival_time']
+            timeS = row['trace_S_arrival_time']
         
         smax = st.max()
         absmax = max(abs(n) for n in smax)

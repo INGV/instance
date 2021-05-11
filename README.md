@@ -7,7 +7,7 @@
 **INSTANCE** is a dataset of seismic waveforms data and associated metadata **suited for analysis based on machine learning**. It includes:
 * 54,008 earthquakes for a total of 1,159,249 3-channel waveforms;
 * 132,330 3-channel noise waveforms;
-* 116 precomputed observable quantities providing information on *station, trace source, path* and *quality*;
+* 114 precomputed observable quantities providing information on *station, trace source, path* and *quality*;
 * 19 networks;
 * 620 seismic stations.
 

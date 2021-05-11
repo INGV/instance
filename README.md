@@ -33,10 +33,10 @@ Seismic Waveforms And Associated Metadata published 2021 in Istituto Nazionale d
 ## Download
 To get the **full dataset** you have to download:
 
-* Noise metadata ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_noise.csv.bz2), 8 MB)
+* Noise metadata ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_noise.csv.bz2), 6.7 MB)
 * Noise data in counts ([**hdf5**](http://repo.pi.ingv.it/instance/Instance_noise.hdf5.bz2), 3.9 GB)
 
-* Events metadata ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events.csv.bz2), 249 MB)
+* Events metadata ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events.csv.bz2), 238 MB)
 * Events data in counts  as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2) (39 GB) or 10 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-a), [**part-b**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-b), [**part-c**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-c), [**part-d**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-d))
 
 * Events data in ground motion units as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2) (151 GB) or

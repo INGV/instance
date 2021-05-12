@@ -1,7 +1,7 @@
 ![event](docs/logo.png)
 
 [![DOI](https://img.shields.io/badge/doi-10.13127%2Finstance-lightgray?style=flat-square)](https://doi.org/10.13127/instance)
-![GitHub all releases](https://img.shields.io/github/downloads/cjunkk/instance/total?color=green&style=flat-square)
+<!--[GitHub all releases](https://img.shields.io/github/downloads/cjunkk/instance/total?color=green&style=flat-square)-->
 
 ## Description
 **INSTANCE** is a dataset of seismic waveforms data and associated metadata **suited for analysis based on machine learning**. It includes:
@@ -25,11 +25,11 @@
 ![wf_n](docs/Wave_noise_HH.png)
 
 ## Reference
-INSTANCE The Italian Seismic Dataset For Machine Learning,
+**INSTANCE** The Italian Seismic Dataset For Machine Learning,
 Alberto Michelini, Spina Cianetti, Sonja Gaviano, Carlo Giunchi, Dario Jozinović & Valentino Lauciani,
 Seismic Waveforms And Associated Metadata published 2021 in Istituto Nazionale di Geofisica e Vulcanologia (INGV) https://doi.org/10.13127/instance
 
-## Download
+## Downloads
 To get the **full INSTANCE dataset** you have to download:
 
 * **Events metadata** ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events.csv.bz2), 238 MB) - doi:10.13127/instance/eventsmetadata.1
@@ -58,18 +58,18 @@ cat  Instance_events_counts.hdf5.bz2.part-* > Instance_events_counts.hdf5.bz2
 bzip2 -d Instance_events_counts.hdf5.bz2
 ```
 
-A **sample dataset** of about 1.7 GB is provided to run the notebooks. The sample dataset contains 10,000 events and 1000 noise waveforms together with the associated metadata. Potentially interested users can evaluate **INSTANCE**  data and metadata without downloading the whole dataset.
+A **sample dataset** of about 1.7 GB is provided to run the notebooks. This contains 10,000 events and 1000 noise waveforms together with the associated metadata. Potentially interested users can evaluate **INSTANCE**  data and metadata without downloading the whole dataset.
 
 * [**Sample dataset**](http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2) (1.7 GB)
 
 ## Notebooks
-The following notebooks provides example about reading waveforms and metadata of INSTANCE. They refers to the  **sample dataset**; to use them with the full dataset filenames must be changed accordingly.
+The following notebooks provide examples about reading waveforms and metadata of **INSTANCE**. They refers to the  **sample dataset**; to use them with the full dataset filenames must be changed accordingly.
 
-`Plots.ipynb` to explore significant parameters distribution of the dataset using metadata
+`Plots.ipynb` to explore significant parameters distribution in **INSTANCE** using metadata
 
 `Waveforms.ipynb` to select and plot 3 channel waveforms
 
-`Station_Hypocenter_MomentTensor.ipynb` provides maps about earthquakes included in INSTANCE
+`Station_Hypocenter_MomentTensor.ipynb` maps about earthquakes included in INSTANCE
 
 
 ## Requirements

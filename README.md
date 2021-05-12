@@ -7,15 +7,15 @@
 **INSTANCE** is a dataset of seismic waveforms data and associated metadata **suited for analysis based on machine learning**. It includes:
 * 54,008 earthquakes for a total of 1,159,249 3-channel waveforms;
 * 132,330 3-channel noise waveforms;
-* 114 precomputed observable quantities providing information on *station, trace source, path* and *quality*;
+* 114 precomputed observable quantities providing information on *station, trace, source, path* and *quality*;
 * 19 networks;
 * 620 seismic stations.
 
 
 ![maps](docs/Ita_epicenter_station.png)
-*Earthquakes a) and stations b) of the dataset. Symbols size are proportional to earthquake magnitude and number of arrival phases recorded by stations, respectively*
+*Earthquakes a) and stations b) in INSTANCE. Symbols size are proportional to earthquake magnitude and number of arrival phases recorded by stations, respectively*
 
-To **access the waveforms in INSTANCE** we provide the notebook Waveforms.ipynb.
+
 
 **Events with Magnitude in the range [2-4]**
 ![wf_c](docs/Wave_count_2_M_4.png)
@@ -23,7 +23,6 @@ To **access the waveforms in INSTANCE** we provide the notebook Waveforms.ipynb.
 ![wf_gm](docs/Wave_gm_HN.png)
 **Noise selected form HH channel**
 ![wf_n](docs/Wave_noise_HH.png)
-
 
 ## Reference
 INSTANCE The Italian Seismic Dataset For Machine Learning,
@@ -52,15 +51,25 @@ To get the **full INSTANCE dataset** you have to download:
 * **Stations inventory** ([**StationXML**](http://repo.pi.ingv.it/instance/responses.tgz), 15 MB)
 
 <!-- The **notebooks** provided in this repo can be used to reproduce the figures of the manuscript Michelini et al., 2021, submitted. -->
-The multipart files can be reassembled with the following commands:
+All the above downloads provide `bzip2` compressed files. The multipart files can be reassembled and then unzipped (e.g., for the event data file)
+
 ```
-cat Instance_events_counts.hdf5.bz2.part-* | tar xj
-cat Instance_events_gm.hdf5.bz2.part-* | tar xj
+cat  Instance_events_counts.hdf5.bz2.part-* > Instance_events_counts.hdf5.bz2
+bzip2 -d Instance_events_counts.hdf5.bz2
 ```
 
-A **sample dataset** of approximately 1.7 GB is provided in the repository to run the notebooks. The sample dataset contains 10,000 events and 1000 noise waveforms together with the associated metadata. Users potentially interested can evaluate whether **INSTANCE** fulfill their needs without downloading the whole dataset.
+A **sample dataset** of about 1.7 GB is provided to run the notebooks. The sample dataset contains 10,000 events and 1000 noise waveforms together with the associated metadata. Potentially interested users can evaluate **INSTANCE**  data and metadata without downloading the whole dataset.
 
 * [**Sample dataset**](http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2) (1.7 GB)
+
+## Notebooks
+The following notebooks provides example about reading waveforms and metadata of INSTANCE. They refers to the  **sample dataset**; to use them with the full dataset filenames must be changed accordingly.
+
+`Plots.ipynb` to explore significant parameters distribution of the dataset using metadata
+
+`Waveforms.ipynb` to select and plot 3 channel waveforms
+
+`Station_Hypocenter_MomentTensor.ipynb` provides maps about earthquakes included in INSTANCE
 
 
 ## Requirements

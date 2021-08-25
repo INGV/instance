@@ -7,12 +7,12 @@
 **INSTANCE** is a dataset of seismic waveforms data and associated metadata **suited for analysis based on machine learning**. It includes:
 * 54,008 earthquakes for a total of 1,159,249 3-channel waveforms;
 * 132,330 3-channel noise waveforms;
-* 114 precomputed observable quantities providing information on *station, trace, source, path* and *quality*;
+* 115 precomputed observable quantities providing information on *station, trace, source, path* and *quality*;
 * 19 networks;
 * 620 seismic stations.
 
 
-![maps](docs/Ita_epicenter_station.png)
+![maps](docs/Ita_epicenter_moment_tensor_compressed.png)
 *Earthquakes a) and stations b) in INSTANCE. Symbols size are proportional to earthquake magnitude and number of arrival phases recorded by stations, respectively*
 
 
@@ -27,7 +27,7 @@
 ## Open review
 Michelini, A., Cianetti, S., Gaviano, S., Giunchi, C., Jozinovic, D., and Lauciani, V.: INSTANCE – the Italian seismic dataset for machine learning, Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2021-164, in review, 2021.
 
-The preprint is **open for interactive public discussion until 22 Jul 2021** at: https://essd.copernicus.org/preprints/essd-2021-164/
+<!--The preprint is **open for interactive public discussion until 22 Jul 2021** at: https://essd.copernicus.org/preprints/essd-2021-164/-->
 
 ## Reference
 **INSTANCE** The Italian Seismic Dataset For Machine Learning,
@@ -37,10 +37,10 @@ Seismic Waveforms And Associated Metadata published 2021 in Istituto Nazionale d
 ## Downloads
 To get the **full INSTANCE dataset** you have to download:
 
-* **Events metadata** ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events.csv.bz2), 238 MB) - doi:10.13127/instance/eventsmetadata.1
-* **Events data in counts**  as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2) (39 GB) or 10 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-a), [**part-b**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-b), [**part-c**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-c), [**part-d**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-d)) - doi:10.13127/instance/events.1
+* **Events metadata** ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events.csv.bz2), 238 MB bz2 file, 1.1 GB after decompression) - doi:10.13127/instance/eventsmetadata.1
+* **Events data in counts**  as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2) (39 GB bz2 file, 156 GB after decompression) or 10 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-a), [**part-b**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-b), [**part-c**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-c), [**part-d**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-d)) - doi:10.13127/instance/events.1
 
-* **Events data in ground motion units** as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2) (151 GB) or
+* **Events data in ground motion units** as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_gm.hdf5.bz2) (151 GB bz2 file, 156 GB after decompression) or
 20 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-a),
 [**part-b**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-b),
 [**part-c**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-c),
@@ -49,8 +49,8 @@ To get the **full INSTANCE dataset** you have to download:
 [**part-f**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-f),
 [**part-g**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-g),
 [**part-h**](http://repo.pi.ingv.it/instance/gm/Instance_events_gm.hdf5.bz2.part-h)). Ground motion units are m/s for HH and EH channels and m/s<sup>2</sup> for HN channel. doi:10.13127/instance/groundmotion.1
-* **Noise metadata** ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_noise.csv.bz2), 6.7 MB) - doi:10.13127/instance/noisemetadata.1
-* **Noise data** in counts ([**hdf5**](http://repo.pi.ingv.it/instance/Instance_noise.hdf5.bz2), 3.9 GB) - doi:10.13127/instance/noise.1
+* **Noise metadata** ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_noise.csv.bz2), 6.7 MB bz2 file, 53 MB after decompression) - doi:10.13127/instance/noisemetadata.1
+* **Noise data** in counts ([**hdf5**](http://repo.pi.ingv.it/instance/Instance_noise.hdf5.bz2), 3.9 GB bz2 file, 18 GB after decompression) - doi:10.13127/instance/noise.1
 
 
 * **Stations inventory** ([**StationXML**](http://repo.pi.ingv.it/instance/responses.tgz), 15 MB)
@@ -65,7 +65,7 @@ bzip2 -d Instance_events_counts.hdf5.bz2
 
 A **sample dataset** of about 1.7 GB is provided to run the notebooks. This contains 10,000 events and 1000 noise waveforms together with the associated metadata. Potentially interested users can evaluate **INSTANCE**  data and metadata without downloading the whole dataset.
 
-* [**Sample dataset**](http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2) (1.7 GB)
+* [**Sample dataset**](http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2) (1.7 GB bz2 file, 2.74 GB after decompression)
 
 ## Notebooks
 The following notebooks provide examples about reading waveforms and metadata of **INSTANCE**. They refers to the  **sample dataset**; to use them with the full dataset filenames must be changed accordingly.

@@ -90,9 +90,9 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
     freq_min and freq_max : minimum and maximum frequency
 
     """    
-    title_size = 18
-    labelsize = 20
-    legendsize = 16
+    title_size = 24
+    labelsize = 24
+    legendsize = 20
     label_sec=range(0,60,30)
     formatter = mdates.DateFormatter("%H:%M:%S")
 
@@ -101,12 +101,12 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
     fig_size = [fig_width*2*ncol, fig_height*2*nrow]
     
     fig = plt.figure(figsize=fig_size)
-    outer = gridspec.GridSpec(nrow, ncol, wspace=0.3, hspace=0.3)
+    outer = gridspec.GridSpec(nrow, ncol, wspace=0.4, hspace=0.4)
 
     irow=3
     for i in range(nrow*ncol):
         inner = gridspec.GridSpecFromSubplotSpec(irow, 1,
-                        subplot_spec=outer[i], wspace=0.2, hspace=0.2)
+                        subplot_spec=outer[i], wspace=0.2, hspace=0.3)
 
         l=lines[i] 
         unit=units[i]
@@ -154,6 +154,9 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
                     ax.axvline(date2num(S_date_time_obj), c='r', lw=2, label = "Pick_S")
             ax.xaxis.set_tick_params(labelleft=True, labelsize=labelsize)
             ax.set_ylabel(unit,fontsize=labelsize)
+            t = ax.yaxis.get_offset_text()
+            t.set_size(22)
+
 
 
             if j ==0:

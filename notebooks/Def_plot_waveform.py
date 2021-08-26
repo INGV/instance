@@ -58,11 +58,11 @@ def build_stream(df,h5,line, wftype, filt, freq_min, freq_max):
         tr.data = waveform[i]
         tr.stats = stats
         if i == 0:
-            tr.stats.channel = row['file_E'].split('.')[3]
+            tr.stats.channel = row['station_channels']+'E'
         if i == 1:
-            tr.stats.channel = row['file_N'].split('.')[3]
+            tr.stats.channel = row['station_channels']+'N'
         if i == 2:
-            tr.stats.channel = row['file_Z'].split('.')[3]
+            tr.stats.channel = row['station_channels']+'Z'
         tr +=tr
         st.append(tr)        
 

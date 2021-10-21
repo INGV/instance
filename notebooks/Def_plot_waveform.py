@@ -116,11 +116,12 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
         if wftype != 'noise':
             timeP = row['trace_P_arrival_time']
             timeS = row['trace_S_arrival_time']
+        else:
+            timeN = row['trace_start_time']
         
         smax = st.max()
         absmax = max(abs(n) for n in smax)
         yslim = absmax*1.01
-
 
         if wftype != 'noise':
             P_date_time_str = timeP
@@ -129,7 +130,10 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
             S_date_time_str = timeS
             if timeS != "" :
                 S_date_time_obj = datetime.datetime.strptime(S_date_time_str, '%Y-%m-%dT%H:%M:%S.%fZ')
-
+        else:
+            N_date_time_str = timeN
+            N_date_time_obj = datetime.datetime.strptime(N_date_time_str, '%Y-%m-%dT%H:%M:%S.%fZ')
+                
         custom_lines1 = [Line2D([0], [0], color='k', lw=2),Line2D([0], [0], color='b', lw=2),Line2D([0], [0], color='r', lw=2)]
         if wftype != 'noise':
             custom_lines2 = [Line2D([0], [0], color='b', lw=2),Line2D([0], [0], color='r', lw=2)]
@@ -164,19 +168,16 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
                 ax.tick_params(labelleft=True, labelbottom=False)
                 ax.set_title(name,pad=20,fontsize=title_size)
                 ax.text(1, 1.3, lab, transform=ax.transAxes, fontsize=labelsize,ha='right',va='top')
-                if wftype != 'noise':
-                    ax.legend(custom_lines1,[ch],fontsize=legendsize,bbox_to_anchor=(0.99, 0.96), loc=1, borderaxespad=0.,shadow=True)
+                ax.legend(custom_lines1,[ch],fontsize=legendsize,bbox_to_anchor=(0.99, 0.96), loc=1, borderaxespad=0.,shadow=True)
             elif j==1:
                 ch = st[1].stats.channel
                 ax.tick_params(labelleft=True, labelbottom=False)
-                if wftype != 'noise':
-                    ax.legend(custom_lines1,[ch],fontsize=legendsize,bbox_to_anchor=(0.99, 0.96), loc=1, borderaxespad=0.,shadow=True)
+                ax.legend(custom_lines1,[ch],fontsize=legendsize,bbox_to_anchor=(0.99, 0.96), loc=1, borderaxespad=0.,shadow=True)
             elif j == 2:
                 ch = st[2].stats.channel
                 ax.tick_params(labelleft=True, labelbottom=True)
                 ax.set_xlabel("Time",fontsize=labelsize)
-                if wftype != 'noise':
-                    ax.legend(custom_lines1,[ch],fontsize=legendsize,bbox_to_anchor=(0.99, 0.96), loc=1, borderaxespad=0.,shadow=True)
+                ax.legend(custom_lines1,[ch],fontsize=legendsize,bbox_to_anchor=(0.99, 0.96), loc=1, borderaxespad=0.,shadow=True)
 
             ax.set_xlim(date2num(st[0].stats.starttime.datetime),date2num(st[0].stats.endtime.datetime))
 

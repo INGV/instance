@@ -658,7 +658,8 @@ def plot_pie_panels(df_grouped, cols, ncols, nrows, label_font_size, tick_font_s
     except:
         pass
     
-    
+    cmap = plt.get_cmap("inferno")    
+    outer_colors=cmap([50, 255, 140, 90, 115, 0, 170, 200, 220])
 
     ind=0
 
@@ -709,6 +710,7 @@ def plot_pie_panels(df_grouped, cols, ncols, nrows, label_font_size, tick_font_s
 
           
             patches, texts, autotexts = axs[i].pie(fracs, labels=labels,
+                                                      colors=outer_colors,
                                                       autopct='%.1f%%',
                                                       textprops={'fontsize': 0},
                                                       shadow=False, radius=1.2, labeldistance=None)   
@@ -779,6 +781,7 @@ def plot_pie_panels(df_grouped, cols, ncols, nrows, label_font_size, tick_font_s
 
         
         patches, texts, autotexts = axs.pie(fracs, labels=labels,
+                                                  colors=outer_colors,
                                                   autopct='%.f%%',
                                                   textprops={'size': 'smaller'},
                                                   shadow=False, radius=1.2, labeldistance=None)

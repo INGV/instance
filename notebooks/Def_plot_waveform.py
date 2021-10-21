@@ -134,9 +134,9 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
             N_date_time_str = timeN
             N_date_time_obj = datetime.datetime.strptime(N_date_time_str, '%Y-%m-%dT%H:%M:%S.%fZ')
                 
-        custom_lines1 = [Line2D([0], [0], color='k', lw=2),Line2D([0], [0], color='b', lw=2),Line2D([0], [0], color='r', lw=2)]
+        custom_lines1 = [Line2D([0], [0], color='k', lw=2),Line2D([0], [0], color='indigo', lw=2),Line2D([0], [0], color='darkorange', lw=2)]
         if wftype != 'noise':
-            custom_lines2 = [Line2D([0], [0], color='b', lw=2),Line2D([0], [0], color='r', lw=2)]
+            custom_lines2 = [Line2D([0], [0], color='indigo', lw=2),Line2D([0], [0], color='darkorange', lw=2)]
         net = st[0].stats.network
         sta = st[0].stats.station
         if wftype != 'noise':
@@ -153,9 +153,9 @@ def multiple_streams(df,h5,lines,wftype,nrow,ncol,units,labs,filt,freq_min,freq_
             ax.plot(st[j].times("matplotlib"), st[j].data, c='k', lw=1, label = "Trace")
             ax.yaxis.set_tick_params(labelleft=True, labelsize=labelsize)
             if wftype != 'noise':
-                ax.axvline(date2num(P_date_time_obj), c='b', lw=2, label = "Pick_P")
+                ax.axvline(date2num(P_date_time_obj), c='indigo', lw=2, label = "Pick_P")
                 if timeS != "" :
-                    ax.axvline(date2num(S_date_time_obj), c='r', lw=2, label = "Pick_S")
+                    ax.axvline(date2num(S_date_time_obj), c='darkorange', lw=2, label = "Pick_S")
             ax.xaxis.set_tick_params(labelleft=True, labelsize=labelsize)
             ax.set_ylabel(unit,fontsize=labelsize)
             t = ax.yaxis.get_offset_text()

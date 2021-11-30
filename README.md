@@ -25,7 +25,7 @@
 ![wf_n](docs/Wave_noise_HH.png)
 
 ## How to cite the article journal
-Michelini, A., Cianetti, S., Gaviano, S., Giunchi, C., Jozinovic, D., and Lauciani, V.: INSTANCE – the Italian seismic dataset for machine learning, Earth Syst. Sci. Data, 13 (12), 5509 – 5544. doi:10.5194/essd-13-5509-2021.
+Michelini, A., Cianetti, S., Gaviano, S., Giunchi, C., Jozinovic, D., and Lauciani, V.: INSTANCE – the Italian seismic dataset for machine learning, Earth Syst. Sci. Data, 13 (12), 5509 – 5544. [doi:10.5194/essd-13-5509-2021](https://essd.copernicus.org/articles/13/5509/2021/).
 
 ## How to cite the dataset
 **INSTANCE** The Italian Seismic Dataset For Machine Learning,

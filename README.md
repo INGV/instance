@@ -24,13 +24,10 @@
 **Noise selected form HH channel**
 ![wf_n](docs/Wave_noise_HH.png)
 
-## Open review
-Michelini, A., Cianetti, S., Gaviano, S., Giunchi, C., Jozinovic, D., and Lauciani, V.: INSTANCE – the Italian seismic dataset for machine learning, Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2021-164, in review, 2021.
-**Review status: a revised version of this preprint was accepted for the journal ESSD**
+## How to cite the article journal
+Michelini, A., Cianetti, S., Gaviano, S., Giunchi, C., Jozinovic, D., and Lauciani, V.: INSTANCE – the Italian seismic dataset for machine learning, Earth Syst. Sci. Data, 13 (12), 5509 – 5544. doi: 10.5194/essd-13-5509-2021.
 
-<!--The preprint is **open for interactive public discussion until 22 Jul 2021** at: https://essd.copernicus.org/preprints/essd-2021-164/-->
-
-## Reference
+## How to cite the dataset
 **INSTANCE** The Italian Seismic Dataset For Machine Learning,
 Alberto Michelini, Spina Cianetti, Sonja Gaviano, Carlo Giunchi, Dario Jozinović & Valentino Lauciani,
 Seismic Waveforms And Associated Metadata published 2021 in Istituto Nazionale di Geofisica e Vulcanologia (INGV) https://doi.org/10.13127/instance

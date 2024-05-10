@@ -35,6 +35,7 @@ Seismic Waveforms And Associated Metadata published 2021 in Istituto Nazionale d
 ## Downloads
 To get the **full INSTANCE dataset** you have to download:
 
+* **Events metadata version 3** ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events_v3.csv.bz2), 275 MB bz2 file, 1.8 GB after decompression, doi:10.13127/instance/eventsmetadata.3). Fixed the spectral acceleration values wrongly expressed in %g.
 * **Events metadata version 2** ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events_v2.csv.bz2), 238 MB bz2 file, 1.1 GB after decompression, doi:10.13127/instance/eventsmetadata.2). Fixed the metadata parameter name source_mt_scalar_moment_Nm.
 * **Events metadata version 1** ([**csv**](http://repo.pi.ingv.it/instance/metadata_Instance_events.csv.bz2), 238 MB bz2 file, 1.1 GB after decompression, doi:10.13127/instance/eventsmetadata.1)
 * **Events data in counts**  as [**single hdf5 file**](http://repo.pi.ingv.it/instance/Instance_events_counts.hdf5.bz2) (39 GB bz2 file, 156 GB after decompression) or 10 GB parts ([**part-a**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-a), [**part-b**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-b), [**part-c**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-c), [**part-d**](http://repo.pi.ingv.it/instance/events/Instance_events_counts.hdf5.bz2.part-d), doi:10.13127/instance/events.1)
@@ -64,6 +65,7 @@ bzip2 -d Instance_events_counts.hdf5.bz2
 
 A **sample dataset** of about 1.7 GB is provided to run the notebooks. This contains 10,000 events and 1000 noise waveforms together with the associated metadata. Potentially interested users can evaluate **INSTANCE**  data and metadata without downloading the whole dataset.
 
+* [**Sample dataset vesrion 3**](http://repo.pi.ingv.it/instance/Instance_sample_dataset_v3.tar.bz2) (1.7 GB bz2 file, 2.74 GB after decompression). Fixed the spectral acceleration values wrongly expressed in %g.
 * [**Sample dataset vesrion 2**](http://repo.pi.ingv.it/instance/Instance_sample_dataset_v2.tar.bz2) (1.7 GB bz2 file, 2.74 GB after decompression). Fixed the metadata parameter name source_mt_scalar_moment_Nm.
 * [**Sample dataset version 1**](http://repo.pi.ingv.it/instance/Instance_sample_dataset.tar.bz2) (1.7 GB bz2 file, 2.74 GB after decompression)
 
